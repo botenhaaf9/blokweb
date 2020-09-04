@@ -65,7 +65,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 ![foto's](images/caron.jpg)
-[foto's](images/menu.jpg)
+![foto's](images/menu.jpg)
 
 **Breakdown-schets(en):**
 
