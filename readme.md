@@ -55,12 +55,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Intake (week 1)
+Ik ga de website van mijn tijdelijke werk proberen na te maken, dit is gemaakt volgensmij met een Wordpress website
+**Je startniveau:** blauw
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je focus:** surface plane
 
-**Je focus:** -kies uit responsive óf surface plane-
-
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** www.grandcaron.nl
 
 **Screenshot(s):**
 
