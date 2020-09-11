@@ -55,7 +55,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Intake (week 1)
-Ik ga de website van mijn tijdelijke werk proberen na te maken, dit is gemaakt volgensmij met een Wordpress website
+Ik ga de website van mijn tijdelijke werk proberen na te maken. Ik denk dat het lastig wordt, maar ik vind het een leuke uitdaging.
 **Je startniveau:** blauw
 
 **Je focus:** surface plane
