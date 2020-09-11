@@ -55,7 +55,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Intake (week 1)
-Ik ga de website van mijn tijdelijke werk proberen na te maken. Ik denk dat het lastig wordt, maar ik vind het een leuke uitdaging.
+
 **Je startniveau:** blauw
 
 **Je focus:** surface plane
@@ -65,8 +65,9 @@ Ik ga de website van mijn tijdelijke werk proberen na te maken. Ik denk dat het 
 **Screenshot(s):**
 
 ![foto's](images/caron.jpg)
-![foto's](images/menu.jpg)
+[foto's](images/menu.jpg)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![foto's](images/headrfooter.png)
+[foto's](images/breakdown.jpg)
