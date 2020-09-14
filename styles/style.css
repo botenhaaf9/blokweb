@@ -3,3 +3,39 @@
   box-sizing:border-box;  
 }
 
+body {background-color: #FAEBD7;}
+
+header > nav > ul > li {
+  
+  margin: 0 20px;
+  font-size: 15px;
+ padding-top: 30px;
+ 
+  
+}
+
+li{
+  color: black;
+  font-family: avenir;
+  
+}
+
+.logo.grand{
+  width: 300px;
+  height: 230px;
+  margin-bottom: 2%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header > nav > ul {
+  display: flex;
+  flex: auto;
+  list-style: none;
+  padding: 7px;
+  justify-content: left;
+  border-bottom: solid black 2px;
+
+}

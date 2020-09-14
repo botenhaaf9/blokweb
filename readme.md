@@ -38,19 +38,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vond het best wel lastig om te beginnen met dit vak, dit omdat wij best veel te doen hebben de eerste week en hierdoor zette ik dit vak eigenlijk een beetje op zij.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+-
 
 ### Agenda voor meeting
-
--samen met je groepje opstellen-
+-
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-
 
 
 
@@ -65,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 ![foto's](images/caron.jpg)
-[foto's](images/menu.jpg)
+![foto's](images/menu.jpg)
 
 **Breakdown-schets(en):**
 
