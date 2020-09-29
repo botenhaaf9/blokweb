@@ -29,10 +29,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 2 (week 5)
+In week 5 heb ik besloten om helemaal opnieuw teb beginnen. Ik merkte dat ik er geen zin in kreeg om mijn website af te maken. Toen heb ik gekozen voor een nieuwe website en nu heb ik er weer helemaal zin in.
+Dit is de website die ik nu ga "namaken"
 
--same as voortgang 1-
+https://shopemmachamberlain.com/
 
-
+![foto's](images/footer.jpg)
+![foto's](images/home.jpg)
+![foto's](images/form.jpg)
 
 ## Voortgang 1 (week 3)
 

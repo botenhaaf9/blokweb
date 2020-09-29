@@ -2,40 +2,108 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
-
-body {background-color: #FAEBD7;}
-
-header > nav > ul > li {
-  
-  margin: 0 20px;
-  font-size: 15px;
- padding-top: 30px;
- 
-  
+*{
+  margin: 0;
+  padding: 0;
 }
 
-li{
-  color: black;
-  font-family: avenir;
-  
+html{
+  /*font-family: 'Arial Black', sans-serif;*/
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
 }
 
-.logo.grand{
-  width: 300px;
-  height: 230px;
-  margin-bottom: 2%;
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+body {
+  background-image: url("../images/katback.jpg");
+  background-color: #cccccc;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+ }
 
 header > nav > ul {
   display: flex;
   flex: auto;
   list-style: none;
-  padding: 7px;
-  justify-content: left;
-  border-bottom: solid black 2px;
+  padding: 4px;
+  color:#666362;
+}
+
+header > nav > ul > li {
+  padding: 5px;
+  margin: 0 7px;
+  font-size: 14px;
+  padding-top: 1px;
+  
+  
+}
+
+header{
+  background-color:white;
+  width: 100%;
+  padding: 4px;
+  
+}
+
+.centerlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+  height: 5%;
+  padding: 15px;
 
 }
+.currencies{
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+  color: #666362;
+  border: none;
+  font-size: 14px;
+}
+
+footer{
+  color: #666362;
+  font-size: 10px;
+  padding: 20px 0;
+  background-position: center center;
+  background-color: white;
+  position: relative;
+  height:230px ;
+  /* margin-top: -100px; */
+margin-top: auto;
+  /* clear: both; */
+} 
+
+.buttonupdates{
+  background-color:  #666362;
+  color: white;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.thin
+{
+  font-family: Helvetica, Sans-Serif;
+  font-weight: lighter;
+  font-size: 12px;
+} 
+
+.tekst{
+  text-align: center;
+  
+}
+
+#buy:hover {
+  background-image: url('images/emmacatshoodie.png') no repeat;
+  height: 70px;
+  width: 120px;
+}
+
+
