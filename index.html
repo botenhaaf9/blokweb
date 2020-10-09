@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Bo">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>Bo Emma chamberlain</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
@@ -13,13 +13,30 @@
 
 <body>
 	<header>
+
+		<div class="promo_banner">
+
+			<marquee behavior="scroll" direction="left" class="top-message">
+				Free Shipping Over $100. We do not guarantee delivery by Halloween.
+			</marquee>
+
+		</div>
+		
 		<nav>
-            <ul>
-                <li>home</li>
-                <li>the loyalty program</li>
-                <li>login</li>
-				<li>merch ig</li>
+            <ul class="nav-links"> 
+                <li> 
+					<a href="index.html"> home </a>
+				</li>
+                <li>
+					<a href="#">the loyalty program</a>
+				</li>
+                <li>
+					<a href="login.html">login</a>
+				</li>
+				<li> 
+					<a href="https://www.instagram.com/emmachamberlain/?hl=nl" target="_blank"> merch ig</a></li>
 				<li>
+
 					<select  name="currencies" class="currencies" data-default-shop-currency="USD">
 						<option value="USD" selected="selected">usd</option>
 						<option value="EUR">eur</option>
@@ -28,33 +45,71 @@
 						<option value="JPY">jpy</option>
 					</select>
 				</li>
-            </ul>
+			</ul>
+			<div class="burger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
         </nav>
 	</header>
 
 	<main>
 		<img src="images/emmalogo.png" alt="logoEmma" class="centerlogo">
-		
-		<img src="images/catshoodie.png" alt="cat hoodie" id="buy">
+			
+			<div>
+				<img src="images/tee.png" alt="emma tee" id="buy" class="tee">
+
+				<img src="images/emmatee.png" alt="emma tee" class="tee">
+			</div>
+			<p class="info">zombie emma tee </p>
+
+			<!-- <div>
+				<img src="images/pants.png" alt="emma pants" id="buy" class="pants">
+
+				<img src="images/emmapants.png" alt="emma pants" class="pants">
+			</div>
+
+			<div>
+				<img src="images/hoodie.png" alt="emma hoodie" id="buy" class="hoodie">
+
+				<img src="images/emmahoodie.png" alt="emma hoodie" class="hoodie">
+			</div>
+
+			<div>
+				<img src="images/bag.png" alt="emma bag" id="buy" class="bag">
+
+				<img src="images/emmabag.png" alt="emma bag" class="bag">
+			</div> -->
 	</main>
 
 
 
 	<footer >
-		<p>sign up for insider access on new drops.
-		</p>
-		<form>
-			<label for="name">name:</label><br>
-			<input  type="text" class="name" name="name"><br>
-			<label for="phone">phone</label><br>
-			<input type="text" class="phone" name="phone">
+		<p class="signup">sign up for insider access on new drops.</p>
+
+		<form >
+			<input type="text" placeholder="email adress" class="name" name="name">
+			<input type="text" placeholder="phone number" class="phone" name="phone">
 			<input type="submit" value="sign up for updates" class="buttonupdates">
 		  </form>
+
 		  <p class="thin">*email required but phone # is optional <333</p>
+		   
+		  <nav>
+            <ul>
+                <li> contact </li>
+                <li>faqs</li>
+                <li>terms</li>
+				<li>privacy</li>
+			</ul>
+			<p>© 2020 emma chamberlain all rights reserved.</p>
+        </nav>
 	</footer>
 
 
-	<script src="scripts/script.js"></script>
+	<script src="emma.js"></script>
+
 </body>
 	
 </html>

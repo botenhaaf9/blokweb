@@ -24,7 +24,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Deze week heb ik veel aan mijn website gewerkt. 
+Mijn website was paar dagen under construction dus moest ik even wat dingen veranderen.
+Deze week is het mij eindelijk gelukt om mijn navigatie balk responsive te krijgen. Dit is best wel goed gelukt, alleen sommige kleine dingetjes moeten nog gefixt worden.
+Ook heb ik bepaalde knoppen een animatie gegeven zodat ze bijvoorbeeld een andere kleur worden.
+
+Ik wil graag dat mijn hele website responsive wordt maar ik vind dit best wel lastig. Want tot nu toe staat alles schreef als je het op een telefoon formaat uitprobeerd. Ik ga hier veel hulp bij zoeken en veel vragen stellen in de les als we daar tijd voor hebben. 
 
 
 
@@ -64,8 +69,7 @@ Voor de rest gaan de lessen allemaal wel goed thuis, doordat we met kleinere gro
 
 **Je focus:** surface plane
 
-**Je opdracht:** www.grandcaron.nl
-
+**Je opdracht:** https://shopemmachamberlain.com/
 **Screenshot(s):**
 
 ![foto's](images/caron.jpg)
