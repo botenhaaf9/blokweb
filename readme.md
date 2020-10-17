@@ -14,7 +14,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik had best wel wat in te halen in de laatste weken, maar uiteindelijk heb ik alles op alles gezet en heb ik toch het resultaat gekregen wat ik wilde. 
+Wat ikzelf het lastigs vond was dat ik mijn afbeelding maar niet responsive kreeg.
 
 **Screenshot(s):**
 

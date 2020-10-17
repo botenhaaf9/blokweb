@@ -1,3 +1,4 @@
+
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -7,7 +8,7 @@ const navSlide = () => {
          // Toggle Nav
         nav.classList.toggle('nav-active');
 
-        // Animate Links
+        // Animatie nav links
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = ''
@@ -15,13 +16,9 @@ const navSlide = () => {
                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
             }       
         });
-    //Burger Animation
+    //hamburger Animatie
     burger.classList.toggle('toggle');
-
-
     }); 
-
-
 }
 
 navSlide();

@@ -15,11 +15,11 @@
 	<header>
 
 		<div class="promo_banner">
-
 			<marquee behavior="scroll" direction="left" class="top-message">
 				Free Shipping Over $100. We do not guarantee delivery by Halloween.
 			</marquee>
-
+			<!--De marquee heb ik opgezocht op https://developer.mozilla.org/nl/docs/Web/HTML/Element/marquee.
+			Ik kwam erachter dat ik hiervoor een marquee nodig had door de website emmachamberlainshop.com te inspecteren-->
 		</div>
 		
 		<nav>
@@ -34,10 +34,11 @@
 					<a href="login.html">login</a>
 				</li>
 				<li> 
-					<a href="https://www.instagram.com/emmachamberlain/?hl=nl" target="_blank"> merch ig</a></li>
+					<a href="https://www.instagram.com/emmachamberlain/?hl=nl" target="_blank"> merch ig</a>
+				</li>
 			</ul>
 
-			<li class="currencies">
+			<form class="currencies">
 				<select  name="currencies" class="currencies" data-default-shop-currency="USD">
 					<option value="USD" selected="selected">usd</option>
 					<option value="EUR">eur</option>
@@ -45,11 +46,15 @@
 					<option value="GBP">gbp</option>
 					<option value="JPY">jpy</option>
 				</select>
-			</li>
+			</form>
 
-					<div class="headerlogo">
-						<img src="images/emmalogo.png" alt="logoEmma" class="headerlogo">
-					</div>
+ 			<button>
+				<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart" class="svg-inline--fa fa-shopping-cart fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path></svg>
+			 </button>
+
+			<a href="index.html" class="headerlogo">
+				<img src="images/emmalogo.png" alt="logoEmma" class="headerlogo">
+			</a>
 
 			<div class="burger">
 				<div class="line1"></div>
@@ -59,46 +64,98 @@
         </nav>
 	</header>
 
-	<main>
+		<a href="index.html">	 
 		<img src="images/emmalogo.png" alt="logoEmma" class="centerlogo">
-			
-	
-			
-		
-		<img src="images/tee.png" alt="emma tee" id="buy" class="tee">
-		<img src="images/pants.png" alt="pants" class="pants">
-		<img src="images/hoodie.png" alt="pants" class="hoodie">
-		<img src="images/bag.png" alt="pants" class="bag">
+		</a>
 
+	<main class="products">
+
+			<article class="buy1">
+				<img src="images/tee.png" alt="emma tee" class="clothes">
+					<div class="product">
+						<a href="#" class="producttitle">Zombie emma hoodie</a>
+						<p class="price">$28.00</p>
+						<button class="size">S</button>
+						<button class="size">M</button>
+						<button class="size">L</button>
+						<button class="size">XL</button>
+						<button class="size">2X</button>
+						<button class="add_to_cart">Add to cart</button>
+					</div>
+			</article>
+		
+			<article class="buy1">
+				<img src="images/pants.png" alt="emma pants" class="clothes">
+					<div class="product">
+						<a href="#" class="producttitle">Zombie emma hoodie</a>
+						<p class="price">$54.00</p>
+						<button class="size">S</button>
+						<button class="size">M</button>
+						<button class="size">L</button>
+						<button class="size">XL</button>
+						<button class="size">2X</button>
+						<button class="add_to_cart">Add to cart</button>
+					</div>
+				</article>
+		
+			<article class="buy1">
+				<img src="images/hoodie.png" alt="emma hoodie" class="clothes">
+					<div class="product">
+						<a href="#" class="producttitle">Zombie emma hoodie</a>
+						<p class="price">$58.00</p>
+						<button class="size">S</button>
+						<button class="size">M</button>
+						<button class="size">L</button>
+						<button class="size">XL</button>
+						<button class="size">2X</button>
+						<button class="add_to_cart">Add to cart</button>
+					</div>
+				</article>
+		
+			<article class="buy1">
+				<img src="images/bag.png" alt="emma bag" class="clothes">
 			
+					<div class="product">
+						<a href="#" class="producttitle">Zombie emma hoodie</a>
+						<p class="price">$18.00</p>
+						<button class="size">S</button>
+						<button class="size">M</button>
+						<button class="size">L</button>
+						<button class="size">XL</button>
+						<button class="size">2X</button>
+						<button class="add_to_cart">Add to cart</button>
+					</div>
+			</article>	
 	</main>
 
 
 
 	<footer >
+
 		<p class="signup">sign up for insider access on new drops.</p>
 
 		<form >
 			<input type="text" placeholder="email adress" class="name" name="name">
 			<input type="text" placeholder="phone number" class="phone" name="phone">
 			<input type="submit" value="sign up for updates" class="buttonupdates">
-		  </form>
+		</form>
 
-		  <p class="thin">*email required but phone # is optional <333</p>
+		<p class="thin">*email required but phone # is optional <333</p>
 		   
-		  <nav>
+		<nav>
             <ul>
                 <li> contact </li>
                 <li>faqs</li>
                 <li>terms</li>
 				<li>privacy</li>
 			</ul>
+
 			<p>© 2020 emma chamberlain all rights reserved.</p>
         </nav>
 	</footer>
 
 
-	<script src="emma.js"></script>
+<script src="emma.js"></script>
 
 </body>
 	
