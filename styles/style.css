@@ -92,10 +92,40 @@ header > nav > button {
   border: none;
 }
 
+header > nav > button:hover {
+  width: 4em;
+  height: 3em;
+  padding: 0.5em;
+  background-color: #ff6102;
+  outline: none;
+  border: none;
+}
+
+header > nav > button:focus {
+  width: 4em;
+  height: 3em;
+  padding: 0.5em;
+  background-color: #ff6102;
+  outline: none;
+  border: none;
+}
+
 header > nav > button > svg {
   width: 1em;
   height: 1em;
   color: white;
+}
+
+header > nav > button > svg:hover {
+  width: 1em;
+  height: 1em;
+  color: black;
+}
+
+
+span {
+  color: black;
+  font-weight: bold;
 }
 
 .headerlogo{

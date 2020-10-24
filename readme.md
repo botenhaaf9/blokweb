@@ -15,11 +15,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 Ik had best wel wat in te halen in de laatste weken, maar uiteindelijk heb ik alles op alles gezet en heb ik toch het resultaat gekregen wat ik wilde. 
-Wat ikzelf het lastigs vond was dat ik mijn afbeelding maar niet responsive kreeg.
+Wat ikzelf het lastigs vond was dat ik mijn afbeelding maar niet responsive kreeg, wat nu uiteindelijk wel is gelukt.
+Ik wilde bijna de shopping cart niet laten werken omdat ik het te veel werk vond, maar uiteindelijk met de hulp van Sanne haar huiswerkopdracht over de shopping cart is het mij toch gelukt om deze een beetje uit te werken.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![foto's](images/screenshot1.jpg)
+![foto's](images/screenshot2.jpg)
 
 
 
