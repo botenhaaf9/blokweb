@@ -1,26 +1,4 @@
 
-// https://codepen.io/shooft/pen/MWyQwrG
-var AddToCartButtons = document.querySelectorAll("button.add_to_cart");
-
-AddToCartButtons[0].addEventListener("click", updateShoppingCart);
-AddToCartButtons[1].addEventListener("click", updateShoppingCart);
-AddToCartButtons[2].addEventListener("click", updateShoppingCart);
-AddToCartButtons[3].addEventListener("click", updateShoppingCart);
-
-function updateShoppingCart() {
-    let shoppingCartAmount = document.querySelector("span");
-
-    let currentAmount = shoppingCartAmount.innerHTML;
-
-    currentAmount = parseInt(currentAmount);
-
-    let newAmount = currentAmount + 1;
-
-    shoppingCartAmount.innerHTML = newAmount;
-}
-
-
-
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -44,4 +22,32 @@ const navSlide = () => {
 }
 
 navSlide();
+
+
+
+// https://codepen.io/shooft/pen/MWyQwrG
+var AddToCartButtons = document.querySelectorAll("button.add_to_cart");
+
+AddToCartButtons[0].addEventListener("click", updateShoppingCart);
+AddToCartButtons[1].addEventListener("click", updateShoppingCart);
+AddToCartButtons[2].addEventListener("click", updateShoppingCart);
+AddToCartButtons[3].addEventListener("click", updateShoppingCart);
+
+function updateShoppingCart() {
+    let shoppingCartAmount = document.querySelector("span");
+
+    let currentAmount = shoppingCartAmount.innerHTML;
+
+    currentAmount = parseInt(currentAmount);
+
+    let newAmount = currentAmount + 1;
+
+    shoppingCartAmount.innerHTML = newAmount;
+}
+
+
+
+
+
+
 
