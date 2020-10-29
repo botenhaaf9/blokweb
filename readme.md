@@ -6,9 +6,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://www.youtube.com/watch?v=gXkqy0b4M5g
+2. https://codepen.io/shooft/pen/MWyQwrG
+3. https://www.w3schools.com/html/html_forms.asp
+4. https://www.w3schools.com/tags/tag_br.asp
+5. https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers
 
 
 

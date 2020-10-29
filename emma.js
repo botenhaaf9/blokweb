@@ -1,4 +1,6 @@
 
+
+// https://www.youtube.com/watch?v=gXkqy0b4M5g
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -16,7 +18,7 @@ const navSlide = () => {
                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
             }       
         });
-    //hamburger Animatie
+    //hamburger Animatie - https://www.youtube.com/watch?v=gXkqy0b4M5g
     burger.classList.toggle('toggle');
     }); 
 }

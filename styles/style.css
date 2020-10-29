@@ -13,11 +13,20 @@ html{
   font-weight: bold;
 }
 
-body {
-  background-image: url("../images/background.png");
+.wrapper {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* Bron: Hulp van studen assistent Victor Boucher bij max-width: en overflow-x: ;;
+  https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers*/
+}
+
+body {
+  background-image: url("../images/background.png");
+  
  }
 
  .top-message {
@@ -40,12 +49,6 @@ body {
   line-height: 30px;
 }
 
-.products {
-  display: grid;
-  grid-template-columns: 2fr, 2fr;
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 header {
   display: flex;
@@ -93,21 +96,11 @@ header > nav > button {
 }
 
 header > nav > button:hover {
-  width: 4em;
-  height: 3em;
-  padding: 0.5em;
   background-color: #ff6102;
-  outline: none;
-  border: none;
 }
 
 header > nav > button:focus {
-  width: 4em;
-  height: 3em;
-  padding: 0.5em;
   background-color: #ff6102;
-  outline: none;
-  border: none;
 }
 
 header > nav > button > svg {
@@ -117,8 +110,6 @@ header > nav > button > svg {
 }
 
 header > nav > button > svg:hover {
-  width: 1em;
-  height: 1em;
   color: black;
 }
 
@@ -180,6 +171,14 @@ span {
   color: white;
 }
 
+
+.products {
+  display: grid;
+  grid-template-columns: 2fr, 2fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 a {
   color: #666362;
   border-bottom: none;
@@ -196,6 +195,7 @@ a {
   background-color: #ffbc00;
   margin: 10%;
   text-align: center;
+  
 }
 
 .producttitle {
@@ -220,11 +220,6 @@ a {
 }
 .size:focus {
   background-color: #ff7c00;
-  padding: 15px 20px;
-  border: none;
-  color: white;
-  font-family: Helvetica, Sans-Serif;
-  font-weight: bold;
 }
 
 .add_to_cart{
@@ -246,12 +241,15 @@ a {
   border: solid white;
   box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
 }
+/* Bron: CodePen Joost in de les */
+
 .add_to_cart:focus {
   color:#fff100;
   background: #FF6600;
   border: solid white;
   box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
 }
+/* Bron: CodePen Joost in de les */
 
 /*Login html*/
 
@@ -310,6 +308,7 @@ justify-content: center;
   border: solid white;
   box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
 }
+/* Bron: CodePen Joost in de les */
 
 .login:focus {
   color:#fff100;
@@ -317,6 +316,7 @@ justify-content: center;
   border: solid white;
   box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
 }
+/* Bron: CodePen Joost in de les */
 
 label {
   color: white;
@@ -324,13 +324,6 @@ label {
   font-size: 15px;
 }
 
-/*program html*/
-.welcome {
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  font-family: Helvetica, sans-serif;
-}
 
 /*footer*/
 footer {
@@ -361,7 +354,6 @@ footer nav p{
   justify-content: center;
   padding-left: 35%;
 }
-
 
 
 .name {
@@ -408,24 +400,29 @@ footer nav p{
   background: #FF6600;
   box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
 }
+/* Bron: CodePen Joost in de les */
 
 .buttonupdates:focus {
   color:#fff100;
   background: #FF6600;
   box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
 }
+/* Bron: CodePen Joost in de les */
 
 @media (min-width: 600px) {
-  .products { grid-template-columns: repeat(2, 1fr); }
+  .products { grid-template-columns: repeat(2, 1fr); 
+  }
 }
+
+
 
 @media screen and (max-width:600px) {
 
   .nav-links {
     position: absolute; 
     right: 0px;
-    height: 92vh;
-    top: 8.9vh;
+    height: 15vh;
+    top: 7.9vh;
     background-color: orange;
     display: flex;
     flex-direction: column;
@@ -455,8 +452,42 @@ footer nav p{
     display: none;
   }
 
+  .clothes {
+    height: 300px;
+    width: 270px;
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product{
+    background-color: #ffbc00;
+    text-align: center;
+  }
+  
+  .producttitle {
+    font-size: 12px;
+  }
+  
+  .price{
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+  
+  .size {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  
+  .add_to_cart{
+    padding: 8px;
+    font-size: 10px;
+  }
+
   footer{
-    position: relative;
+   padding: 5%;
   }
 
   footer form {
@@ -472,12 +503,54 @@ footer nav p{
     width: 100%;
     padding-left: 2%;
   }
+
+  .signup {
+    padding: 2px;
+  }
+
+  .name {
+    padding: 2px;
+    margin: 5px;
+ }
+
+ .phone{
+   padding: 2px;
+   margin: 5px;
+ }
+
+ .buttonupdates{
+   padding: 6px;
+ }
+ /* Login pagina */
+
+ .accountlogin{
+   padding-top: 15%;
+ }
+
+ .email {
+  padding: 10px;
+  width: 40%;
+}
+.password {
+  padding: 10px;
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.login {
+  padding: 10px;
+  font-size: 15px;
+  width: 30%;
+}
+
+.mainlogin > .loginform > form {
+padding-left: 90px;
 } 
 
 .nav-active {
   transform: translateX(0%);
 }
-
+}
 
 
 @keyframes navLinkFade {
