@@ -3,3 +3,574 @@
   box-sizing:border-box;  
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+}
+
+.wrapper {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Bron: Hulp van studen assistent Victor Boucher bij max-width: en overflow-x: ;;
+  https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers*/
+}
+
+body {
+  background-image: url("../images/background.png");
+  
+ }
+
+ .top-message {
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.promo_banner {
+  background-color: #ff6102;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  width: 100%;
+  padding: 0.3em;
+}
+
+.promo_banner-show .promo_banner {
+  transition: all 0s linear;
+  height: 30px;
+  line-height: 30px;
+}
+
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:white;
+  width: 100%;
+  padding: 0;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+header > nav > ul {
+  display: flex;
+  flex: auto;
+  list-style: none;
+  padding: 4px;
+  color:#666362;
+}
+
+header > nav > ul > li > a{
+  padding: 5px;
+  margin: 0 7px;
+  font-size: 14px;
+  padding-top: 1px;
+  text-decoration: none;
+}
+
+header > nav > ul > li > a:focus{
+ background-color: orange;
+ border: solid yellow;
+}
+
+header > nav > button {
+  width: 4em;
+  height: 3em;
+  padding: 0.5em;
+  background-color: orange;
+  outline: none;
+  border: none;
+}
+
+header > nav > button:hover {
+  background-color: #ff6102;
+}
+
+header > nav > button:focus {
+  background-color: #ff6102;
+}
+
+header > nav > button > svg {
+  width: 1em;
+  height: 1em;
+  color: white;
+}
+
+header > nav > button > svg:hover {
+  color: black;
+}
+
+
+span {
+  color: black;
+  font-weight: bold;
+}
+
+.headerlogo{
+  display: block;
+  width: 40px;
+  margin: 0 auto;
+  display: none;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  float: right;
+  top: -87px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #666362;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.centerlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 8%;
+  padding: 15px;
+}
+
+.currencies{
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+  color: #666362;
+  border: none;
+  font-size: 14px;
+  list-style: none;
+  padding-right: 1em;
+}
+
+.currencies:focus{
+ background-color: orange;
+ border: solid yellow;
+}
+
+.info {
+  color: white;
+}
+
+
+.products {
+  display: grid;
+  grid-template-columns: 2fr, 2fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: #666362;
+  border-bottom: none;
+  list-style: none;
+}
+
+.clothes {
+  height: 500px;
+  width: 450px;
+}
+
+
+.product{
+  background-color: #ffbc00;
+  margin: 10%;
+  text-align: center;
+  
+}
+
+.producttitle {
+  color: white;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.price{
+  color: white;
+  font-weight: lighter;
+}
+
+.size {
+  background-color: #ffbc00;
+  padding: 15px 20px;
+  border: none;
+  color: white;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+}
+.size:focus {
+  background-color: #ff7c00;
+}
+
+.add_to_cart{
+  background-color: #fff100;
+  border: solid #FF6600;
+  color: black;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.add_to_cart:hover {
+  color:#fff100;
+  background: #FF6600;
+  border: solid white;
+  box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
+}
+/* Bron: CodePen Joost in de les */
+
+.add_to_cart:focus {
+  color:#fff100;
+  background: #FF6600;
+  border: solid white;
+  box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
+}
+/* Bron: CodePen Joost in de les */
+
+/*Login html*/
+
+.accountlogin {
+  color: white;
+  justify-content: center;
+  display: flex;
+  padding-top: 3%;
+}
+
+main > section > form {
+display: flex;
+flex-flow: column wrap;
+height: 250px;
+padding-top: 20px;
+padding-left: 35%;
+width: 150%;
+justify-content: center;
+}
+
+.email {
+  border:none;
+  padding: 10px;
+  width: 30%;
+}
+
+.email:focus {
+  border: 5px solid orange;
+}
+
+.password {
+  border:none;
+  padding: 10px;
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+.password:focus {
+  border: 5px solid orange;
+}
+
+.login {
+  background-color: #fff100;
+  border: solid #FF6600;
+  color: black;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+  width: 10%;
+}
+
+.login:hover {
+  color:#fff100;
+  background: #FF6600;
+  border: solid white;
+  box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
+}
+/* Bron: CodePen Joost in de les */
+
+.login:focus {
+  color:#fff100;
+  background: #FF6600;
+  border: solid white;
+  box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
+}
+/* Bron: CodePen Joost in de les */
+
+label {
+  color: white;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+
+/*footer*/
+footer {
+  color: #666362;
+  font-size: 10px;
+  padding: 20px 0;
+  padding-left: 120px;
+  background-position: center center;
+  background-color: white;
+  position: relative;
+  height:230px ;
+  margin-top: auto;
+  width: 100%;
+} 
+
+
+footer nav ul {
+  display: flex;
+  flex: auto;
+  list-style: none;
+  padding: 4px;
+  font-size: 10px;
+  justify-content: space-between;
+  width: 20%;
+}
+
+footer nav p{
+  justify-content: center;
+  padding-left: 35%;
+}
+
+
+.name {
+  padding: 4px;
+}
+
+.name:focus {
+  border: 5px solid orange;
+}
+
+.phone {
+  padding: 4px;
+}
+
+.phone:focus {
+  border: 5px solid orange;
+}
+
+.signup {
+  padding-bottom: 15px;
+}
+
+.thin {
+  font-family: Helvetica, Sans-Serif;
+  font-weight: lighter;
+  font-size: 12px;
+  border-bottom: 2px solid #666362;
+  padding-bottom: 10px;
+  padding-top: 4px;
+} 
+
+.buttonupdates{
+  background-color:  #666362;
+  color: white;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.buttonupdates:hover {
+  color:#fff100;
+  background: #FF6600;
+  box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
+}
+/* Bron: CodePen Joost in de les */
+
+.buttonupdates:focus {
+  color:#fff100;
+  background: #FF6600;
+  box-shadow:inset 0 1.2em rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.5);
+}
+/* Bron: CodePen Joost in de les */
+
+@media (min-width: 600px) {
+  .products { grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+
+
+@media screen and (max-width:600px) {
+
+  .nav-links {
+    position: absolute; 
+    right: 0px;
+    height: 15vh;
+    top: 7.9vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%); 
+    transition: transform 0.5s ease-in ;
+    padding-top: 30px;
+  } 
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger{
+    display: block ;
+  }
+
+  .headerlogo{
+    display: block;
+  
+  }
+  .centerlogo {
+    display: none;
+  }
+  
+  .currencies{
+    display: none;
+  }
+
+  .clothes {
+    height: 300px;
+    width: 270px;
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product{
+    background-color: #ffbc00;
+    text-align: center;
+  }
+  
+  .producttitle {
+    font-size: 12px;
+  }
+  
+  .price{
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+  
+  .size {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  
+  .add_to_cart{
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  footer{
+   padding: 5%;
+  }
+
+  footer form {
+    width: 70%;
+    padding-top: 1%;
+  }
+  
+  footer nav ul {
+    width: 70%;
+    padding-top: 1%;
+  }
+  footer nav p {
+    width: 100%;
+    padding-left: 2%;
+  }
+
+  .signup {
+    padding: 2px;
+  }
+
+  .name {
+    padding: 2px;
+    margin: 5px;
+ }
+
+ .phone{
+   padding: 2px;
+   margin: 5px;
+ }
+
+ .buttonupdates{
+   padding: 6px;
+ }
+ /* Login pagina */
+
+ .accountlogin{
+   padding-top: 15%;
+ }
+
+ .email {
+  padding: 10px;
+  width: 40%;
+}
+.password {
+  padding: 10px;
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.login {
+  padding: 10px;
+  font-size: 15px;
+  width: 30%;
+}
+
+.mainlogin > .loginform > form {
+padding-left: 90px;
+} 
+
+.nav-active {
+  transform: translateX(0%);
+}
+}
+
+
+@keyframes navLinkFade {
+  from{
+      opacity: 0;
+      transform: translateX(50px);
+  }
+
+  to{
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px,-6px);
+}
