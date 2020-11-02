@@ -477,6 +477,7 @@ footer nav p{
     transform: translateX(100%); 
     transition: transform 0.5s ease-in ;
     padding-top: 30px;
+    z-index: 1000;
   } 
 
   .nav-links li {
