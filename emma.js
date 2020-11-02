@@ -35,6 +35,11 @@ AddToCartButtons[1].addEventListener("click", updateShoppingCart);
 AddToCartButtons[2].addEventListener("click", updateShoppingCart);
 AddToCartButtons[3].addEventListener("click", updateShoppingCart);
 
+
+
+
+  
+
 function updateShoppingCart() {
     let shoppingCartAmount = document.querySelector("span");
 
