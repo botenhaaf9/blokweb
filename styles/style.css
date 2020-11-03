@@ -1,4 +1,9 @@
 /* CSS Document */
+
+a:-webkit-any-link {
+  text-decoration: none;
+  }
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -167,6 +172,10 @@ span {
  border: solid yellow;
 }
 
+img{
+  width: 100%;
+}
+
 .info {
   color: white;
 }
@@ -186,8 +195,8 @@ a {
 }
 
 .clothes {
-  height: 500px;
-  width: 450px;
+ width: 40vw;
+ margin-top: 20%;
 }
 
 
@@ -195,10 +204,10 @@ a {
   background-color: #ffbc00;
   margin: 10%;
   text-align: center;
-  
 }
 
 .producttitle {
+  font-size: 15px;
   color: white;
   list-style: none;
   outline: none;
@@ -206,6 +215,7 @@ a {
 }
 
 .price{
+  font-size: 15px;
   color: white;
   font-weight: lighter;
 }
@@ -258,6 +268,7 @@ a {
 
 .video{
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .watchvideo {
@@ -266,6 +277,7 @@ a {
   padding-top: 3%;
   padding-bottom: 1%;
   font-size: 20px;
+  margin-top: 5%;
 }
 /* Product html */
 
@@ -303,7 +315,7 @@ a {
  }
 
 .product_pagina{
-  align-self: flex-end;
+  align-self: center;
   background-color: #ffbc00;
   margin: 5%;
   text-align: center;
@@ -448,6 +460,7 @@ footer nav p{
 }
 
 .signup {
+  font-size: 10px;
   padding-bottom: 15px;
 }
 
@@ -491,7 +504,7 @@ footer nav p{
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
 
   .nav-links {
     position: absolute; 
@@ -532,7 +545,7 @@ footer nav p{
   .clothes {
     height: 300px;
     width: 270px;
-    margin-top: 10%;
+    margin-top: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -673,6 +686,7 @@ padding-left: 90px;
 }
 }
 
+/* loyality program */
 
 @keyframes navLinkFade {
   from{
